@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Your Site</title>
-  <link href="http://yoursite.com/atom.xml" rel="self"/>
-  <link href="http://yoursite.com"/>
-  <updated>2014-09-02T07:28:33.537Z</updated>
-  <id>http://yoursite.com</id>
+  <title>Depict</title>
+  <link href="http://depict.com/atom.xml" rel="self"/>
+  <link href="http://depict.com"/>
+  <updated>2014-09-02T16:32:02.487Z</updated>
+  <id>http://depict.com</id>
   <author>
     <name>Author</name>
     <email>author@yoursite.com</email>
@@ -13,9 +13,9 @@
   
     <entry>
       <title>Post</title>
-      <link href="http://yoursite.com/posts/post"/>
+      <link href="http://depict.com/posts/post"/>
       <updated>2014-08-10T18:52:00.000Z</updated>
-      <id>http://yoursite.com/posts/post</id>
+      <id>http://depict.com/posts/post</id>
       <content type="html">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
@@ -23,8 +23,8 @@
     &lt;meta charset=&quot;utf-8&quot;&gt;
     &lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot;&gt;
     &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot;&gt;
-    &lt;title&gt;Post | Your Site&lt;/title&gt;
-    &lt;meta name=&quot;description&quot; content=&quot;This is your site.&quot;&gt;
+    &lt;title&gt;Post | Depict&lt;/title&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;Live your art.&quot;&gt;
     &lt;meta name=&quot;keywords&quot; content=&quot;place, your, website, keywoards, here, keep, them, related, to, the, content, of, your, website&quot;&gt;
     &lt;meta name=&quot;author&quot; content=&quot;Author&quot;&gt;&lt;meta name=&quot;generator&quot; content=&quot;DocPad v6.69.0&quot; /&gt;
     &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
@@ -92,7 +92,7 @@ var inject = function(){
   &lt;body id=&quot;generic&quot;&gt;
     &lt;nav class=&quot;pure-menu pure-menu-open pure-menu-horizontal&quot;&gt;
       &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&quot;/&quot; class=&quot;h4&quot;&gt;Your Site&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;/&quot; class=&quot;h4&quot;&gt;Depict&lt;/a&gt;&lt;/li&gt;
         &lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/about&quot;&gt;&lt;a href=&quot;/pages/about&quot; property=&quot;dc:title&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
         &lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/posts&quot;&gt;&lt;a href=&quot;/pages/posts&quot; property=&quot;dc:title&quot;&gt;Writing&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
