@@ -1,0 +1,151 @@
+/*---------------------------------------------------
+    LESS Elements 0.9
+  ---------------------------------------------------
+    A set of useful LESS mixins
+    More info at: http://lesselements.com
+  ---------------------------------------------------*/
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 2.8em;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body * {
+  color: #372d32;
+  font-family: 'Encode Sans Narrow', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+nav {
+  display: none;
+}
+.text-center {
+  text-align: center;
+}
+.pure-g > div {
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.blue {
+  background: #0f5bad;
+  color: white;
+  padding: 2.8em;
+}
+.logo {
+  padding: 0.17em 0.35em ;
+  border: 0.15em solid #0f5bad;
+  background: white;
+  display: inline-table;
+}
+#intro {
+  background: url('../img/bg.jpg') center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#intro .pure-u-1 {
+  background: rgba(255, 255, 255, 0.6);
+  padding: 2.8em 2.8em 7em 2.8em;
+}
+#brief {
+  background: #dddfe4;
+}
+#elements td {
+  height: 2em;
+}
+table {
+  width: 100%;
+}
+tr.blue {
+  background: #0f5bad;
+}
+tr.red {
+  background: #b81438;
+}
+tr.black {
+  background: #372d32;
+}
+tr.gray {
+  background: #666f82;
+}
+hr {
+  border: none;
+  border-top: 2px solid #008C74;
+  margin: 1.4em 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+  font-weight: 400;
+  font-family: 'Encode Sans Wide', sans-serif;
+  letter-spacing: 0.05em;
+  color: inherit;
+}
+body {
+  font-size: 16px;
+}
+p {
+  font-size: 1.25em;
+  line-height: 1.4em;
+  margin: 1.4em 0;
+  color: inherit;
+}
+h1,
+.h1 {
+  font-size: 5em;
+  line-height: 1.181em;
+  margin: 0 0 0.39375em 0;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+h2,
+.h2 {
+  font-size: 2.667em;
+  line-height: 1.576em;
+  margin: 0.525em 0em;
+  text-transform: uppercase;
+}
+h3,
+.h3 {
+  font-size: 2.000em;
+  line-height: 1.4em;
+  margin: 0.700em 0em;
+  border-bottom: 0.15em solid #b81438;
+  text-transform: uppercase;
+  font-family: 'Encode Sans Normal', sans-serif;
+}
+h4,
+.h4 {
+  font-size: 1.500em;
+  line-height: 1.4 em;
+  margin: 0.467em 0em;
+  font-family: 'Encode Sans Normal', sans-serif;
+}
+h5,
+.h5 {
+  font-size: 1em;
+  line-height: 1.4em;
+  margin: 0.700em 0em;
+}
+.xlarge {
+  font-size: 7em;
+  font-weight: 500;
+}
+@media screen and (max-width: 35.5em) {
+  body {
+    font-size: 14px;
+  }
+}
